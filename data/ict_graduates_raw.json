@@ -1,0 +1,318 @@
+{
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Graduates by education level, programme orientation, sex and field of education",
+  "source": "ESTAT",
+  "updated": "2026-05-20T23:00:00+0200",
+  "value": {
+    "38": 1982,
+    "21": 4992,
+    "34": 924,
+    "2": 3796,
+    "3": 2206,
+    "32": 3515,
+    "14": 364,
+    "4": 3986,
+    "6": 35158,
+    "5": 5089,
+    "7": 793,
+    "9": 3231,
+    "10": 31927,
+    "0": 204222,
+    "27": 5336,
+    "11": 33414,
+    "37": 1041,
+    "12": 1800,
+    "18": 4896,
+    "8": 7997,
+    "29": 213,
+    "13": 8038,
+    "16": 1132,
+    "17": 216,
+    "15": 828,
+    "35": 232,
+    "36": 763,
+    "19": 302,
+    "20": 8481,
+    "31": 3716,
+    "22": 19359,
+    "23": 2777,
+    "24": 9175,
+    "39": 3358,
+    "28": 6271,
+    "25": 868,
+    "26": 1790,
+    "40": 30526
+  },
+  "status": {
+    "8": "d",
+    "22": "de"
+  },
+  "id": [
+    "freq",
+    "unit",
+    "isced11",
+    "iscedf13",
+    "sex",
+    "geo",
+    "time"
+  ],
+  "size": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    41,
+    1
+  ],
+  "dimension": {
+    "freq": {
+      "label": "Time frequency",
+      "category": {
+        "index": {
+          "A": 0
+        },
+        "label": {
+          "A": "Annual"
+        }
+      }
+    },
+    "unit": {
+      "label": "Unit of measure",
+      "category": {
+        "index": {
+          "NR": 0
+        },
+        "label": {
+          "NR": "Number"
+        }
+      }
+    },
+    "isced11": {
+      "label": "International Standard Classification of Education (ISCED 2011)",
+      "category": {
+        "index": {
+          "ED5-8": 0
+        },
+        "label": {
+          "ED5-8": "Tertiary education (levels 5-8)"
+        }
+      }
+    },
+    "iscedf13": {
+      "label": "ISCED Fields of education and training (ISCED-F 2013)",
+      "category": {
+        "index": {
+          "F06": 0
+        },
+        "label": {
+          "F06": "Information and communication technologies"
+        }
+      }
+    },
+    "sex": {
+      "label": "Sex",
+      "category": {
+        "index": {
+          "T": 0
+        },
+        "label": {
+          "T": "Total"
+        }
+      }
+    },
+    "geo": {
+      "label": "Geopolitical entity (reporting)",
+      "category": {
+        "index": {
+          "EU27_2020": 0,
+          "EU28": 1,
+          "BE": 2,
+          "BG": 3,
+          "CZ": 4,
+          "DK": 5,
+          "DE": 6,
+          "EE": 7,
+          "IE": 8,
+          "EL": 9,
+          "ES": 10,
+          "FR": 11,
+          "HR": 12,
+          "IT": 13,
+          "CY": 14,
+          "LV": 15,
+          "LT": 16,
+          "LU": 17,
+          "HU": 18,
+          "MT": 19,
+          "NL": 20,
+          "AT": 21,
+          "PL": 22,
+          "PT": 23,
+          "RO": 24,
+          "SI": 25,
+          "SK": 26,
+          "FI": 27,
+          "SE": 28,
+          "IS": 29,
+          "LI": 30,
+          "NO": 31,
+          "CH": 32,
+          "UK": 33,
+          "BA": 34,
+          "ME": 35,
+          "MK": 36,
+          "GE": 37,
+          "AL": 38,
+          "RS": 39,
+          "TR": 40
+        },
+        "label": {
+          "EU27_2020": "European Union - 27 countries (from 2020)",
+          "EU28": "European Union - 28 countries (2013-2020)",
+          "BE": "Belgium",
+          "BG": "Bulgaria",
+          "CZ": "Czechia",
+          "DK": "Denmark",
+          "DE": "Germany",
+          "EE": "Estonia",
+          "IE": "Ireland",
+          "EL": "Greece",
+          "ES": "Spain",
+          "FR": "France",
+          "HR": "Croatia",
+          "IT": "Italy",
+          "CY": "Cyprus",
+          "LV": "Latvia",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "HU": "Hungary",
+          "MT": "Malta",
+          "NL": "Netherlands",
+          "AT": "Austria",
+          "PL": "Poland",
+          "PT": "Portugal",
+          "RO": "Romania",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "FI": "Finland",
+          "SE": "Sweden",
+          "IS": "Iceland",
+          "LI": "Liechtenstein",
+          "NO": "Norway",
+          "CH": "Switzerland",
+          "UK": "United Kingdom",
+          "BA": "Bosnia and Herzegovina",
+          "ME": "Montenegro",
+          "MK": "North Macedonia",
+          "GE": "Georgia",
+          "AL": "Albania",
+          "RS": "Serbia",
+          "TR": "T\u00fcrkiye"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "category": {
+        "index": {
+          "2023": 0
+        },
+        "label": {
+          "2023": "2023"
+        }
+      }
+    }
+  },
+  "extension": {
+    "lang": "EN",
+    "id": "EDUC_UOE_GRAD02",
+    "agencyId": "ESTAT",
+    "version": "1.0",
+    "datastructure": {
+      "id": "EDUC_UOE_GRAD02",
+      "agencyId": "ESTAT",
+      "version": "55.0"
+    },
+    "annotation": [
+      {
+        "type": "CREATED",
+        "date": "2016-09-09T08:38:42+0200"
+      },
+      {
+        "type": "DISSEMINATION_DOI_XML",
+        "title": "<adms:identifier xmlns:adms=\"http://www.w3.org/ns/adms#\" xmlns:skos=\"http://www.w3.org/2004/02/skos/core.html\" xmlns:dct=\"http://purl.org/dc/terms/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><adms:Identifier rdf:about=\"https://doi.org/10.2908/EDUC_UOE_GRAD02\"><skos:notation rdf:datatype=\"http://purl.org/spar/datacite/doi\">10.2908/EDUC_UOE_GRAD02</skos:notation><dct:creator rdf:resource=\"http://publications.europa.eu/resource/authority/corporate-body/ESTAT\"/><dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">2023-01-19</dct:issued></adms:Identifier></adms:identifier>"
+      },
+      {
+        "type": "DISSEMINATION_OBJECT_TYPE",
+        "title": "DATASET"
+      },
+      {
+        "type": "DISSEMINATION_TIMESTAMP_DATA",
+        "date": "2026-05-20T23:00:00+0200"
+      },
+      {
+        "type": "DISSEMINATION_TIMESTAMP_GLOBAL",
+        "date": "2026-05-20T23:00:00+0200"
+      },
+      {
+        "type": "DISSEMINATION_TIMESTAMP_PLANNED",
+        "date": "2026-05-20T23:00:00+0200"
+      },
+      {
+        "type": "ESMS_HTML",
+        "title": "Explanatory texts (metadata)",
+        "href": "https://ec.europa.eu/eurostat/cache/metadata/en/educ_uoe_enr_esms.htm"
+      },
+      {
+        "type": "ESMS_SDMX",
+        "title": "Explanatory texts (metadata)",
+        "href": "https://ec.europa.eu/eurostat/api/dissemination/files?file=metadata/educ_uoe_enr_esms.sdmx.zip"
+      },
+      {
+        "type": "OBS_COUNT",
+        "title": "1622368"
+      },
+      {
+        "type": "OBS_PERIOD_OVERALL_LATEST",
+        "title": "2024"
+      },
+      {
+        "type": "OBS_PERIOD_OVERALL_OLDEST",
+        "title": "2005"
+      },
+      {
+        "type": "SOURCE_INSTITUTIONS",
+        "text": "Eurostat"
+      },
+      {
+        "type": "UPDATE_DATA",
+        "date": "2026-05-20T23:00:00+0200"
+      },
+      {
+        "type": "UPDATE_STRUCTURE",
+        "date": "2026-01-29T11:00:00+0100"
+      }
+    ],
+    "status": {
+      "label": {
+        "d": "definition differs (see metadata)",
+        "de": "definition differs (see metadata), estimated"
+      }
+    },
+    "positions-with-no-data": {
+      "freq": [],
+      "unit": [],
+      "isced11": [],
+      "iscedf13": [],
+      "sex": [],
+      "geo": [
+        1,
+        30,
+        33
+      ],
+      "time": []
+    }
+  }
+}
