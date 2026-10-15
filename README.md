@@ -129,6 +129,6 @@ No API key required.
 
 ## Author
 
-Santiago Patiño Serna — [LinkedIn](https://www.linkedin.com/in/santiagopatinoserna/)
+Santiago Patiño Serna — [LinkedIn](https://www.linkedin.com/in/santiago-patino/)
 
 Issues and PRs welcome.
