@@ -1,6 +1,6 @@
 # EU AI talent vs adoption — the gap nobody likes to quote
 
-**Day 2 of public-data analysis on European enterprise AI** (continuing from [eu-ai-adoption-2024](https://github.com/santiagopatinoserna/eu-ai-adoption-2024), where the headline was: cost is the 6th barrier, expertise is the 1st at 70.89%).
+**Second part of a public-data analysis on European enterprise AI** (follows [eu-ai-adoption-2024](https://github.com/santiagopatinoserna/eu-ai-adoption-2024), where the headline was: cost is the 6th barrier, expertise is the 1st at 70.89%).
 
 > **TL;DR.** If 70.89% of EU companies blame "lack of expertise" for not adopting AI, does the data support that? **Partially.** Talent supply correlates with AI adoption (Pearson 0.722). But the variance under the line is enormous. **Spain produces more ICT graduates per capita than Germany — and uses half the AI.** France graduates above the EU average — and has the lowest enterprise AI adoption in Western Europe.
 
@@ -12,7 +12,7 @@ The expertise barrier is real. But for several Western European economies, the b
 
 ![Same talent supply, very different AI adoption](charts/chart_scatter_talent_vs_ai.png)
 
-Each dot is a European country. X-axis = ICT specialists as % of total employment (talent supply, Eurostat 2024). Y-axis = % of enterprises with 10+ employees using AI (deployment, Eurostat 2024). The dashed line is the average relationship — Pearson r = 0.722.
+Each dot is a European country. X-axis = ICT specialists as % of total employment (talent supply, Eurostat 2024). Y-axis = % of enterprises with 10+ employees using AI (deployment, Eurostat 2024). The dashed line is the average relationship: Pearson r = 0.722 and Spearman 0.776 (n = 31 countries with all three datasets).
 
 **Spain and France sit way below the line.** Slovenia, Denmark, Belgium, Greece sit way above.
 
@@ -83,7 +83,7 @@ No API key required.
 │   ├── ict_specialists_raw.json       ← Eurostat isoc_sks_itspt 2024
 │   ├── ict_graduates_raw.json         ← Eurostat educ_uoe_grad02 2023
 │   ├── population_raw.json            ← Eurostat demo_pjan 2024
-│   ├── ai_tany_all.csv                ← Yesterday's AI adoption (Eurostat isoc_eb_ai)
+│   ├── ai_tany_all.csv                ← AI adoption, copied from eu-ai-adoption-2024 (Eurostat isoc_eb_ai)
 │   └── talent_vs_adoption.csv         ← joined country-level dataframe
 ├── scripts/
 │   ├── fetch.py     ← pulls 3 Eurostat datasets
@@ -105,17 +105,17 @@ No API key required.
   - `isoc_sks_itspt` — Employed ICT specialists (2024)
   - `educ_uoe_grad02` — Tertiary graduates by field (2023, ISCED 5–8, field F06 = ICT)
   - `demo_pjan` — Population 1 January 2024
-  - Plus yesterday's `isoc_eb_ai` cross-tab (bundled).
+  - Plus the `isoc_eb_ai` AI adoption cross-tab from the companion repo (bundled).
 - **Correlation isn't causation.** A country's ICT specialist supply correlates with its AI adoption, but other factors (regulation, capital availability, language, sector mix) also vary.
 - **ICT graduates ≠ AI graduates.** ISCED field F06 includes broad ICT — not just AI/ML. Spain's high graduate count includes computer science generalists, telecoms engineers, software engineers, etc.
 - **Brain drain not measured here.** Ireland's 149.4 graduates per 100k partly leak to US tech companies — Eurostat measures graduates produced, not graduates retained.
-- **Self-reported AI adoption.** Same caveat as yesterday: enterprises may over- or under-state "we use AI."
+- **Self-reported AI adoption.** Same caveat as in the companion repo: enterprises may over- or under-state "we use AI."
 
 ---
 
 ## Companion repo
 
-- Day 1: [eu-ai-adoption-2024](https://github.com/santiagopatinoserna/eu-ai-adoption-2024) — the barriers analysis (cost ranks 6th, expertise ranks 1st at 70.89%).
+- Part 1: [eu-ai-adoption-2024](https://github.com/santiagopatinoserna/eu-ai-adoption-2024) — the barriers analysis (cost ranks 6th, expertise ranks 1st at 70.89%).
 
 ---
 
